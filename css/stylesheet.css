@@ -1,0 +1,24 @@
+/* Stylesheet for YouTube layout */
+
+/*Fonts, Links and other text styles */
+
+p{
+
+}
+
+a{
+
+}
+
+
+/*header and header div styles */
+
+header{
+	height:70px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1999999999;
+	background-color: blue;
+}
