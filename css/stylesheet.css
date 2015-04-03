@@ -3,11 +3,14 @@
 /*Fonts, Links and other text styles */
 
 p{
-
+    font-family: arial,sans-serif;
+    font-size: 13px;
 }
 
 a{
-
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
 }
 
 
@@ -20,5 +23,73 @@ header{
 	right: 0;
 	left: 0;
 	z-index: 1999999999;
-	background-color: blue;
+	background-color: gray;
 }
+
+/*logo section of header*/
+
+.logo_holder{
+	background-color: blue;
+	float: left;
+}
+.logo_holder img {
+    height: 30px;
+}
+
+
+
+/*Search box section of header*/
+.search_holder{
+	float:left;
+}
+.search_box{
+        width:590px;
+        font-size: 16pt;
+        border: 1px solid #dcdcdc;
+        height:30px;
+        float: left;
+        display: inline;
+    }
+    .search_button{
+        border: 1px solid #357ebd;
+        background-color:#4285F4;
+        background-image: url("../images/mag_glass.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius:2px;
+        height:30px;
+        width:60px;
+    }
+
+    /* nav button section of header */
+
+    .header_links_holder{
+    	float: left;
+        /*font-size:0  will remove white space on inline block elements*/
+    }
+
+    .header_links_holder li{
+        display: inline-block;
+        list-style: none;
+        line-height: 30px;
+        
+    }
+
+    .header_upload_but{
+    	border: 1px solid #4285F4;
+        padding: 5px 10px 5px 10px;
+        background-color:yellow;
+        color:#ffffff !important; 
+        font-weight: bold;
+        border-radius: 2px;
+    }
+
+    .header_sign_in_but{
+    	border: 1px solid #4285F4;
+        padding: 5px 10px 5px 10px;
+        background-color:#4285F4;
+        color:#ffffff !important; 
+        font-weight: bold;
+        border-radius: 2px;
+    }
