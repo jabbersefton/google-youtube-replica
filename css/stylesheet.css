@@ -109,7 +109,7 @@ nav{
         margin-right: 2%;
     }
     .header_links_holder ul{
-        text-align: rig2ht;
+        text-align: right;
     }
 
     .header_links_holder li{
@@ -148,3 +148,22 @@ nav{
 
     /* **************** beginning of central content styles*/
 
+.central_content_wrapper{
+    margin-right: 2%;
+    margin-left: 2%;
+    background-color: green;
+    margin-top: 51px; /*brings content below header*/
+    height: 800px;
+}
+
+section{
+    width: 70%;
+    float:left;
+    background-color: yellow;
+}
+
+aside{
+    width:30%;
+    float: left;
+    background-color: red;
+}
